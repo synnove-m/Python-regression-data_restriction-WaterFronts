@@ -1,2 +1,3 @@
 # Python-regression-data_restriction-WaterFronts
 This project uses data from King County, Washington. The goal is to analyze how much a buyer is expected to pay for a waterfront home relative to a comparable non-waterfront home, essentially estimating a waterfront premium in King County, Washington. I use regression and data restriction to do so.
+Because the data set was so large, I wanted to pare it down so that homes were as comparable as possible. I restricted the data set to homes within 0.001 longitude and latitude of a waterfront home. In addition, I excluded homes with outlying features, such as 5+ bedrooms. 
